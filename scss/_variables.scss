@@ -1,0 +1,51 @@
+// Variables
+
+$white: #fff !default;
+
+$primary: #4E6727;
+$green: $primary;
+$blue: #7BA9C1;
+$info: $blue;
+$yellow: lighten(#FCDAA4, 15%);
+$orange: #BF4F18;
+$red: saturate($orange, 25%);
+$brown: darken(#915C38, 10%);
+
+$black: darken($brown, 20%) !default;
+$gray-900: lighten($black, 5%);
+$gray-800: desaturate(lighten($gray-900, 10%), 5%);
+$gray-700: desaturate(lighten($gray-800, 10%), 5%);
+$gray-600: desaturate(lighten($gray-700, 10%), 5%);
+$gray-500: desaturate(lighten($gray-600, 10%), 5%);
+$gray-400: desaturate(lighten($gray-500, 10%), 5%);
+$gray-300: desaturate(lighten($gray-400, 10%), 5%);
+$gray-200: desaturate(lighten($gray-300, 10%), 5%);
+$gray-100: desaturate(lighten($gray-200, 10%), 5%);
+
+
+$font-family-sans-serif: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-serif: 'Spectral', Garamond, Georgia, Times, 'Times New Roman', serif;
+$font-family-display: 'Dancing Script', 'Comic Sans', -apple-system, sans-serif;
+
+$font-size-base: 1.125rem;
+
+$headings-font-family: $font-family-serif;
+
+$link-color:    $red;
+
+$input-border-radius: 0;
+$input-color: $gray-900;
+$input-border-color: transparent;
+$input-box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+$input-bg: rgba($white, 0.75);
+$input-focus-bg: $white;
+$input-focus-border-color: transparent;
+
+
+$btn-padding-y:   1.25rem;
+$btn-padding-x:   2rem;
+
+$btn-padding-y-sm: 0.5rem;
+$btn-padding-x-sm: 1rem;
+
+$yiq-contrasted-threshold:  170;

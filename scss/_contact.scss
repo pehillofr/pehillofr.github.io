@@ -1,0 +1,74 @@
+.contact-section {
+  padding:  0 0 2rem;
+  .card {
+    border: 0;
+    border-bottom: 0.25rem solid $primary;
+    h4 {
+      font-size: 0.8rem;
+      font-family: 'Varela Round';
+      text-transform: uppercase;
+      letter-spacing: 0.15rem;
+    }
+    hr {
+      border-color: $primary;
+      border-width: 0.25rem;
+      width: 3rem;
+    }
+  }
+  .social {
+    margin-top: 5rem;
+    a:not(.tel) {
+      text-align: center;
+      height: 3rem;
+      width: 3rem;
+      background: fade-out($white, 0.9);
+      border-radius: 1.5rem;
+      line-height: 3rem;
+      color: fade-out($white, 0.7);
+      margin-bottom: 15px;
+      &:hover {
+        color: fade-out($white, 0.5);
+      }
+      &:active {
+        color: $white;
+      }
+    }
+    a.tel {
+      height: 3rem;
+      line-height: 3rem;
+      border-radius: 1.5rem;
+      background: fade-out($white, 0.9);
+      color: fade-out($white, 0.7);
+      padding: 0 2rem;
+      margin-bottom: 15px;
+      &:hover {
+        color: fade-out($white, 0.5);
+        text-decoration: none
+      }
+      &:active {
+        color: $white;
+      }
+    }
+  }
+}
+
+.contact-form-section {
+  padding: 8rem 0;
+  background: linear-gradient(to bottom, #{fade-out($black, .4)} 0%,#{fade-out($black, .2)} 75%,$black 100%), url('../img/bg-signup.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  .form-inline {
+    input {
+      box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0,0,0,.1) !important;
+      padding: 1.25rem 2rem;
+      height: auto;
+      font-family: 'Varela Round';
+      font-size: 80%;
+      text-transform: uppercase;
+      letter-spacing: 0.15rem;
+      border: 0;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.about-section {
+  padding-top: 2rem;
+  padding-bottom: 8rem;
+  p {
+    margin-bottom: 0;
+    + .btn {
+      margin-top: 2rem;
+    }
+  }
+}
+
+#mainNav {
+  .navbar-brand {
+    color: $white;
+  }
+  &.navbar-shrink {
+    .navbar-brand {
+      color: $orange;
+    }
+  }
+}
