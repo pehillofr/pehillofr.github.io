@@ -11015,3 +11015,7 @@ footer {
 .sl-overlay {
   z-index: 1135 !important;
 }
+
+.mw-800px {
+  max-width: 800px !important;
+}
