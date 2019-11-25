@@ -11010,6 +11010,12 @@ footer {
     flex: 100%;
     max-width: 100%;
   }
+  h1 {
+    font-size: 2.6rem;
+  }
+  .popup {
+    font-size: 18px;
+  }
 }
 
 .sl-overlay {
@@ -11018,4 +11024,18 @@ footer {
 
 .mw-800px {
   max-width: 800px !important;
+}
+
+.popup {
+  background-color: #fef8ee;
+  padding: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  border-radius: 15px;
+}
+
+.popup img {
+  float: left;
+  margin-left: 20px;
+  margin-right: 15px;
 }
