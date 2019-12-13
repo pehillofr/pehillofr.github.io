@@ -10640,21 +10640,23 @@ a.text-dark:hover, a.text-dark:focus {
 
 .masthead h1 {
   font-family: "Dancing Script", "Comic Sans", -apple-system, sans-serif;
-  font-size: 2.5rem;
-  line-height: 2.5rem;
+  font-size: 2.9rem;
   color: #fef8ee;
   text-shadow: 1px 2px 0 #6c452a;
 }
 
 .masthead h2 {
   max-width: 20rem;
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 @media (min-width: 768px) {
   .masthead h1 {
     font-size: 4rem;
-    line-height: 4rem;
+  }
+  .masthead h2 {
+    max-width: 25rem;
+    font-size: 1.5rem;
   }
 }
 
@@ -10665,11 +10667,10 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .masthead h1 {
     font-size: 6.5rem;
-    line-height: 6.5rem;
   }
   .masthead h2 {
     max-width: 30rem;
-    font-size: 1.25rem;
+    font-size: 1.4rem;
   }
 }
 
