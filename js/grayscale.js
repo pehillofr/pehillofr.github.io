@@ -48,7 +48,7 @@
 
   var firstload = localStorage.getItem('firsttimeloading');
   if (firstload == null) {
-    localStorage.setItem('firsttimeloading ', 1);
+    localStorage.setItem('firsttimeloading ', 'true');
     $('#covidPopup').modal('show');
   }
 
