@@ -10551,6 +10551,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #langNav {
+  z-index: 1031;
   height: 24px;
   background: transparent;
   margin-top: 10px;
