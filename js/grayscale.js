@@ -46,9 +46,11 @@
       var lightbox = new SimpleLightbox('.photorow a', {'showCounter': false});
   }
 
-  var firstload = localStorage.getItem('firsttimeloading');
-  if (firstload == null) {
-    localStorage.setItem('firsttimeloading', 'true');
+  if (document.cookie == '') {
+    var a = new Date();
+    a = new Date(a.getTime() + 1000*60*60*24);
+    document.cookie = 'firsttimeloading=true; expires='+a.toGMTString()+';';
+
     $('#covidPopup').modal('show');
   }
 
