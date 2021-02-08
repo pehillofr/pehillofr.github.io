@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Grayscale v5.0.3 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2019 Start Bootstrap
+ * Copyright 2013-2021 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
@@ -10551,7 +10551,6 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #langNav {
-  z-index: 1130;
   height: 24px;
   background: transparent;
   margin-top: 10px;
@@ -11019,10 +11018,6 @@ footer {
   }
 }
 
-.sl-overlay {
-  z-index: 1135 !important;
-}
-
 .mw-800px {
   max-width: 800px !important;
 }
@@ -11039,4 +11034,21 @@ footer {
   float: left;
   margin-left: 20px;
   margin-right: 15px;
+}
+
+.modal-header {
+  display: none;
+}
+
+.modal-body {
+  text-align: justify;
+}
+
+.modal-footer {
+  border-top: 0 none;
+}
+
+.modal-body img {
+  display: block;
+  margin: 0 auto;
 }

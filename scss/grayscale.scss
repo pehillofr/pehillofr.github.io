@@ -82,10 +82,6 @@ footer {
   }
 }
 
-.sl-overlay {
-    z-index: 1135!important;
-}
-
 .mw-800px {
   max-width: 800px !important;
 }
@@ -101,4 +97,21 @@ footer {
   float: left;
   margin-left: 20px;
   margin-right: 15px;
+}
+
+.modal-header {
+    display: none;
+}
+
+.modal-body {
+  text-align: justify;
+}
+
+.modal-footer {
+    border-top: 0 none;
+}
+
+.modal-body img {
+  display: block;
+  margin: 0 auto;
 }

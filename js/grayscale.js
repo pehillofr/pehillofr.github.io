@@ -43,7 +43,13 @@
   $(window).scroll(navbarCollapse);
 
   if ( $('.photorow').length ) {
-      var gallery = $('.photorow a').simpleLightbox();
+      var lightbox = new SimpleLightbox('.photorow a', {'showCounter': false});
+  }
+
+  var firstload = localStorage.getItem('firsttimeloading');
+  if (firstload == null) {
+    localStorage.setItem('firsttimeloading ', 1);
+    $('#covidPopup').modal('show');
   }
 
 })(jQuery); // End of use strict
