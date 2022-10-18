@@ -1,6 +1,6 @@
 /*!
  * Start Bootstrap - Grayscale v5.0.3 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2021 Start Bootstrap
+ * Copyright 2013-2022 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
  */
 
@@ -11052,4 +11052,9 @@ footer {
 .modal-body img {
   display: block;
   margin: 0 auto;
+}
+
+#partnerships li {
+  padding: 6px 0;
+  line-height: 35px;
 }
