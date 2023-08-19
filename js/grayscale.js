@@ -44,13 +44,13 @@
       var lightbox = new SimpleLightbox('.photorow a', {'showCounter': false});
   }
 
-  // if (document.cookie && document.cookie.indexOf('firsttimeloading') == -1) {
-  //   var a = new Date();
-  //   a = new Date(a.getTime() + 1000*60*60*24);
-  //   document.cookie = 'firsttimeloading=true; expires='+a.toGMTString()+';';
-  //
-  //   $('#covidPopup').modal('show');
-  // }
+  if (document.cookie && document.cookie.indexOf('firsttimeloading') == -1) {
+    var a = new Date();
+    a = new Date(a.getTime() + 1000*60*60*24);
+    document.cookie = 'firsttimeloading=true; expires='+a.toGMTString()+';';
+
+    $('#discountPopup').modal('show');
+  }
 
 })(jQuery); // End of use strict
 
